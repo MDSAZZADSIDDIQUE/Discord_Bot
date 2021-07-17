@@ -16,9 +16,6 @@ strater_encouragements = ["@Amlanchy is the sexiest guy in the world", "Anunurag
 if "responding" not in db.keys():
   db["responding"] = True
 
-bad_words = ["fuck", "fucking", "ass", "boobs", "pussy", "sex"]
-bad_words_reply = ["Sanity বজায় রাখুন", "দয়া করে Sanity বজায় রাখুন"]
-
 rock_paper_scissors = ["rock", "paper", "scissors"]
 
 
@@ -67,9 +64,6 @@ async def on_message(message):
 
   if message.content.startswith('$watchparty'):
     await message.channel.send('''꧁𓊈𒆜🆁🅰🆃🅴 🆆🅰🆃🅲🅷🅿🅰🆁🆃🆈🆃🅴 🅰🅸🆂🅾 🆂🅾🅱🅰🅸𒆜𓊉꧂ ...\n\n@everyone''')
-  
-  # if any (word in msg for word in bad_words):
-  #   await message.channel.send(random.choice(bad_words_reply))
 
   if message.content.startswith('$horny_rate'):
     await message.channel.send(f"Your horny rate is: {random.randint(0, 101)}%")
