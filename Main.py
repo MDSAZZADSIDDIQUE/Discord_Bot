@@ -11,7 +11,7 @@ client = discord.Client()
 names = ['Anunurag', 'Apri', 'Makhon', 'Profat', 'Prowdhury', 'Turnasif']
 
 sad_words = ["$universal_truth"]
-strater_encouragements = ["@Amlanchy is the sexiest guy in the world", "Anunurag khela pare na", "Give up on your dreams and die", "Being Chowdhury is too hot", "Profat can handle more than two কোলবালিশ... How cool is that", "Among us is dead"]
+strater_encouragements = ["Give up on your dreams and die"]
 
 if "responding" not in db.keys():
   db["responding"] = True
